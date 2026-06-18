@@ -27,7 +27,7 @@ class Student {
     }
 }
 
-public class Main {
+public class xsxz {
     public static void main(String[] args) {
         
         // STEP 2: Create the Scanner object (open the pipeline to the keyboard)
