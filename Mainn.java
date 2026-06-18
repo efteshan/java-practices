@@ -40,23 +40,11 @@ public class Mainn{
     System.out.print("Enter Student's CGPA: ");
         double userCgpa = input.nextDouble();
 
-
-    System.out.print("Enter Student ID: ");
-        String userId2 = input.next();
-
-    System.out.print("Enter Student Name: ");
-        String userName2 = input.next();
-    
-    System.out.print("Enter Student's CGPA: ");
-        double userCgpa2 = input.nextDouble();
-
     Student s1 = new Student(userId, userName, userCgpa);
-    Student s2 = new Student(userId2, userName2, userCgpa2);
 
         System.out.println("---Student Details Below---");
 
     s1.display();
-    s2.display();
 
     }
 }
